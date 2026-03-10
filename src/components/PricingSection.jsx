@@ -34,7 +34,7 @@ export const PricingSection = () => {
 
   return (
     <section 
-      className="flex flex-col w-[1728px] items-center justify-center gap-8 px-10 py-8 relative flex-[0_0_auto]">
+      className="flex flex-col w-full items-center justify-center gap-8 px-10 py-8 relative flex-[0_0_auto]">
       <header className="flex flex-col w-[700px] items-center gap-4 relative flex-[0_0_auto]">
         <h1 className="relative w-fit mt-[-1.00px] font-header-2 font-[number:var(--header-2-font-weight)] text-tasko-gray400 text-[length:var(--header-2-font-size)] text-center tracking-[var(--header-2-letter-spacing)] leading-[var(--header-2-line-height)] [font-style:var(--header-2-font-style)]">
           Chose your plan

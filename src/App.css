@@ -18,6 +18,42 @@
   }
 }
 
+@theme {
+  --color-tasko-blue200: var(--tasko-blue200);
+  --color-tasko-blue300: var(--tasko-blue300);
+  --color-tasko-blue400: var(--tasko-blue400);
+  --color-tasko-blue500: var(--tasko-blue500);
+  --color-tasko-blue600: var(--tasko-blue600);
+  --color-tasko-blue700: var(--tasko-blue700);
+  --color-tasko-blue800: var(--tasko-blue800);
+  --color-tasko-blue900: var(--tasko-blue900);
+  --color-tasko-bluelight: var(--tasko-bluelight);
+  --color-tasko-error300: var(--tasko-error300);
+  --color-tasko-error700: var(--tasko-error700);
+  --color-tasko-gray100: var(--tasko-gray100);
+  --color-tasko-gray200: var(--tasko-gray200);
+  --color-tasko-gray300: var(--tasko-gray300);
+  --color-tasko-gray400: var(--tasko-gray400);
+  --color-tasko-gray500: var(--tasko-gray500);
+  --color-tasko-gray600: var(--tasko-gray600);
+  --color-tasko-gray700: var(--tasko-gray700);
+  --color-tasko-gray800: var(--tasko-gray800);
+  --color-tasko-gray900: var(--tasko-gray900);
+  --color-tasko-success300: var(--tasko-success300);
+  --color-tasko-success400: var(--tasko-success400);
+  --color-tasko-warning300: var(--tasko-warning300);
+  --color-tasko-warning400: var(--tasko-warning400);
+  --color-tasko-white100: var(--tasko-white100);
+  --color-tasko-white200: var(--tasko-white200);
+  --color-tasko-white300: var(--tasko-white300);
+  --color-tasko-white400: var(--tasko-white400);
+  --color-tasko-white500: var(--tasko-white500);
+  --color-tasko-white600: var(--tasko-white600);
+  --color-tasko-white700: var(--tasko-white700);
+  --color-tasko-white800: var(--tasko-white800);
+  --color-tasko-white900: var(--tasko-white900);
+}
+
 :root {
   --body-large-font-family: "Nunito", Helvetica;
   --body-large-font-size: 18px;

@@ -11,7 +11,7 @@ export const Header = () => {
   ];
 
   return (
-    <header className="flex w-[1728px] h-[105.23px] relative items-center justify-between px-10 py-8 bg-tasko-gray500 shadow-vertical-down-LM">
+    <header className="flex w-full h-[105.23px] relative items-center justify-between px-10 py-8 bg-tasko-gray500 shadow-vertical-down-LM">
       <img
         className="relative w-[50px] h-[41.23px] aspect-[1.21]"
         alt="Tasko Tracker Logo"
@@ -24,7 +24,6 @@ export const Header = () => {
       >
         <ul className="flex items-center gap-4 relative self-stretch w-full flex-[0_0_auto] list-none m-0 p-0">
           {navigationItems.map((item) => {
-            // Check if the current item is the active tab
             const isActive = activeTab === item.label;
 
             return (
@@ -61,4 +60,3 @@ export const Header = () => {
     </header>
   );
 };
-

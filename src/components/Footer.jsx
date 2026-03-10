@@ -8,7 +8,7 @@ export const Footer = () => {
   ];
 
   return (
-    <footer className="flex w-[1728px] items-center gap-4 px-10 py-0 relative flex-[0_0_auto] bg-tasko-white100 border-t-[0.5px] [border-top-style:solid] [border-right-style:none] [border-bottom-style:none] [border-left-style:none] border-tasko-blue400">
+    <footer className="flex w-full items-center gap-4 px-10 py-0 relative flex-[0_0_auto] bg-tasko-white100 border-t-[0.5px] [border-top-style:solid] [border-right-style:none] [border-bottom-style:none] [border-left-style:none] border-tasko-blue400">
       <div className="flex flex-col items-start gap-4 px-0 py-6 relative flex-1 grow">
         <div className="flex flex-col items-start gap-8 relative self-stretch w-full flex-[0_0_auto]">
           <div className="inline-flex items-center justify-center gap-4 relative flex-[0_0_auto]">
