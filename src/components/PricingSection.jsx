@@ -36,9 +36,9 @@ export const PricingSection = () => {
     <section 
       className="flex flex-col w-full items-center justify-center gap-8 px-10 py-8 relative flex-[0_0_auto]">
       <header className="flex flex-col w-[700px] items-center gap-4 relative flex-[0_0_auto]">
-        <h1 className="relative w-fit mt-[-1.00px] font-header-2 font-[number:var(--header-2-font-weight)] text-tasko-gray400 text-[length:var(--header-2-font-size)] text-center tracking-[var(--header-2-letter-spacing)] leading-[var(--header-2-line-height)] [font-style:var(--header-2-font-style)]">
-          Chose your plan
-        </h1>
+        <div className="w-[848px] mt-[-1.00px] text-header-2 text-tasko-gray900 text-center relative">
+          Choose Your Plan
+        </div>
       </header>
 
       <div className="inline-flex items-center gap-6 relative flex-[0_0_auto]">
@@ -47,16 +47,16 @@ export const PricingSection = () => {
             key={index}
             className={`flex flex-col w-[400px] items-start gap-2.5 p-8 relative self-stretch ${plan.bgColor} rounded-2xl overflow-hidden border-[0.5px] border-solid border-tasko-blue400 shadow-small-LM`}
           >
-            <h2 className="relative w-fit mt-[-0.50px] font-header-3 font-[number:var(--header-3-font-weight)] text-tasko-gray400 text-[length:var(--header-3-font-size)] text-center tracking-[var(--header-3-letter-spacing)] leading-[var(--header-3-line-height)] whitespace-nowrap [font-style:var(--header-3-font-style)]">
-              {plan.name}
+            <h2 className="relative w-fit mt-[-0.50px] text-header-3 text-tasko-gray400 text-center whitespace-nowrap">
+              Tasko tracker
             </h2>
 
             <div className="inline-flex items-end gap-2.5 relative flex-[0_0_auto]">
-              <p className="relative w-fit mt-[-1.00px] font-header-2 font-[number:var(--header-2-font-weight)] text-tasko-blue900 text-[length:var(--header-2-font-size)] text-center tracking-[var(--header-2-letter-spacing)] leading-[var(--header-2-line-height)] [font-style:var(--header-2-font-style)]">
-                {plan.price}
-              </p>
+              <div className="relative w-fit mt-[-1.00px] text-header-3 text-tasko-gray900">
+                Single Bracelets
+              </div>
 
-              <p className="relative flex items-end justify-center w-fit font-body-large font-[number:var(--body-large-font-weight)] text-tasko-blue900 text-[length:var(--body-large-font-size)] text-center tracking-[var(--body-large-letter-spacing)] leading-[var(--body-large-line-height)] [font-style:var(--body-large-font-style)]">
+              <p className="relative flex items-end justify-center w-fit text-body-large text-tasko-blue900 text-center">
                 /month
               </p>
             </div>
@@ -72,9 +72,9 @@ export const PricingSection = () => {
                     aria-hidden="true"
                   />
 
-                  <span className="relative w-fit mt-[-1.00px] font-body-main font-[number:var(--body-main-font-weight)] text-tasko-gray400 text-[length:var(--body-main-font-size)] text-center tracking-[var(--body-main-letter-spacing)] leading-[var(--body-main-line-height)] [font-style:var(--body-main-font-style)]">
-                    {feature}
-                  </span>
+                  <div className="relative w-fit mt-[-1.00px] text-body-main text-tasko-gray900">
+                One tasko tracker bracelet
+              </div>
                 </li>
               ))}
             </ul>
@@ -86,8 +86,8 @@ export const PricingSection = () => {
         className="flex w-[400px] h-[52px] items-center justify-center gap-2.5 relative bg-tasko-blue300 rounded-lg border border-solid border-tasko-blue400 shadow-medium-LM"
         type="button"
       >
-        <span className="relative flex items-center justify-center w-fit font-UI-button font-[number:var(--UI-button-font-weight)] text-tasko-gray400 text-[length:var(--UI-button-font-size)] text-center tracking-[var(--UI-button-letter-spacing)] leading-[var(--UI-button-line-height)] [font-style:var(--UI-button-font-style)]">
-          Learn more about pricing and featurs
+        <span className="relative flex items-center justify-center w-fit text-UI-button text-tasko-gray400 text-center">
+          Compare plans side-by-side
         </span>
       </button>
     </section>

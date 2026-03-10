@@ -33,7 +33,7 @@ export const Header = () => {
               >
                 <a
                   href={`#${item.label.toLowerCase().replace(" ", "-")}`}
-                  className={`flex w-fit mt-[-1.00px] font-body-large font-[number:var(--body-large-font-weight)] text-[length:var(--body-large-font-size)] tracking-[var(--body-large-letter-spacing)] leading-[var(--body-large-line-height)] items-center relative [font-style:var(--body-large-font-style)] no-underline ${
+                  className={`flex w-fit mt-[-1.00px] text-body-large items-center relative no-underline ${
                     isActive
                       ? "text-tasko-blue600"
                       : "text-tasko-gray400"

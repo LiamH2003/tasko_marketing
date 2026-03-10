@@ -33,9 +33,14 @@ export const CompetitorComparisonSection = () => {
   return (
     <section className="flex flex-col items-start justify-center px-10 py-24 relative self-stretch w-full flex-[0_0_auto] bg-tasko-white100">
       <div className="flex flex-col items-center gap-10 px-5 py-0 relative self-stretch w-full flex-[0_0_auto]">
-        <h2 className="relative flex items-center justify-center w-fit mt-[-1.00px] font-header-2 font-[number:var(--header-2-font-weight)] text-tasko-gray400 text-[length:var(--header-2-font-size)] text-center tracking-[var(--header-2-letter-spacing)] leading-[var(--header-2-line-height)] [font-style:var(--header-2-font-style)]">
-          Tasko Tracker vs Typical Routine Apps
-        </h2>
+        <p className="relative self-stretch mt-[-1.00px] text-header-2 text-tasko-gray900">
+          It isn’t your classic smartphone
+        </p>
+        <p className="relative self-stretch text-body-main text-tasko-gray400">
+          Every feature on your child’s phone was built to grab their
+          attention, not help them focus. That’s why a phone will never
+          replace a dedicated tool like tasko.
+        </p>
 
         <div className="flex flex-col w-[798px] items-start p-4 relative flex-[0_0_auto] bg-tasko-white400 rounded-2xl border-[0.5px] border-solid border-tasko-blue400 shadow-small-LM">
           <div
@@ -46,7 +51,7 @@ export const CompetitorComparisonSection = () => {
               className="flex items-center justify-center gap-2.5 relative flex-1 grow"
               role="columnheader"
             >
-              <div className="relative flex items-center justify-center w-fit mt-[-1.00px] font-body-large font-[number:var(--body-large-font-weight)] text-tasko-gray400 text-[length:var(--body-large-font-size)] text-center tracking-[var(--body-large-letter-spacing)] leading-[var(--body-large-line-height)] [font-style:var(--body-large-font-style)]">
+              <div className="relative flex items-center justify-center w-fit mt-[-1.00px] text-body-large text-tasko-gray400">
                 Feature
               </div>
             </div>
@@ -55,7 +60,7 @@ export const CompetitorComparisonSection = () => {
               className="flex items-center justify-center gap-2.5 relative flex-1 grow"
               role="columnheader"
             >
-              <div className="relative flex items-center justify-center w-fit mt-[-1.00px] font-body-large font-[number:var(--body-large-font-weight)] text-tasko-gray400 text-[length:var(--body-large-font-size)] text-center tracking-[var(--body-large-letter-spacing)] leading-[var(--body-large-line-height)] [font-style:var(--body-large-font-style)]">
+              <div className="relative flex items-center justify-center w-fit mt-[-1.00px] text-body-large text-tasko-gray400">
                 Typical Apps
               </div>
             </div>
@@ -64,7 +69,7 @@ export const CompetitorComparisonSection = () => {
               className="flex items-center justify-center gap-2.5 relative flex-1 grow"
               role="columnheader"
             >
-              <div className="relative flex items-center justify-center w-fit mt-[-1.00px] font-body-large font-[number:var(--body-large-font-weight)] text-tasko-blue600 text-[length:var(--body-large-font-size)] text-center tracking-[var(--body-large-letter-spacing)] leading-[var(--body-large-line-height)] [font-style:var(--body-large-font-style)]">
+              <div className="relative flex items-center justify-center w-fit mt-[-1.00px] text-body-large text-tasko-blue600">
                 Tasko
               </div>
             </div>
@@ -84,7 +89,7 @@ export const CompetitorComparisonSection = () => {
                 className="flex flex-col items-center relative flex-1 grow"
                 role="cell"
               >
-                <div className="relative flex items-center justify-center w-fit mt-[-1.00px] font-body-main font-[number:var(--body-main-font-weight)] text-tasko-gray400 text-[length:var(--body-main-font-size)] text-center tracking-[var(--body-main-letter-spacing)] leading-[var(--body-main-line-height)] [font-style:var(--body-main-font-style)]">
+                <div className="relative flex items-center justify-center w-fit mt-[-1.00px] text-body-main text-tasko-gray400">
                   {row.feature}
                 </div>
               </div>
@@ -94,7 +99,7 @@ export const CompetitorComparisonSection = () => {
                 role="cell"
               >
                 <div
-                  className={`${row.typicalAppsColor} relative flex items-center justify-center w-fit mt-[-1.00px] font-inter-regular font-[number:var(--inter-regular-font-weight)] text-[length:var(--inter-regular-font-size)] text-center tracking-[var(--inter-regular-letter-spacing)] leading-[var(--inter-regular-line-height)] whitespace-nowrap [font-style:var(--inter-regular-font-style)]`}
+                  className={`${row.typicalAppsColor} relative flex items-center justify-center w-fit mt-[-1.00px] text-inter-regular text-center whitespace-nowrap`}
                   aria-label={
                     row.typicalApps === "✓" ? "Supported" : "Not supported"
                   }
@@ -108,7 +113,7 @@ export const CompetitorComparisonSection = () => {
                 role="cell"
               >
                 <div
-                  className={`${row.taskoColor} relative flex items-center justify-center w-fit mt-[-1.00px] font-inter-regular font-[number:var(--inter-regular-font-weight)] text-[length:var(--inter-regular-font-size)] text-center tracking-[var(--inter-regular-letter-spacing)] leading-[var(--inter-regular-line-height)] whitespace-nowrap [font-style:var(--inter-regular-font-style)]`}
+                  className={`${row.taskoColor} relative flex items-center justify-center w-fit mt-[-1.00px] text-inter-regular text-center whitespace-nowrap`}
                   aria-label={row.tasko === "✓" ? "Supported" : "Not supported"}
                 >
                   {row.tasko}

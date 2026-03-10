@@ -16,9 +16,9 @@ export const Footer = () => {
               <div className="relative self-stretch w-full aspect-[1.23] bg-[url(/group.png)] bg-[100%_100%]" />
             </div>
 
-            <p className="relative w-fit font-body-main font-[number:var(--body-main-font-weight)] text-tasko-gray400 text-[length:var(--body-main-font-size)] tracking-[var(--body-main-letter-spacing)] leading-[var(--body-main-line-height)] [font-style:var(--body-main-font-style)]">
-              Organize your routines efficiently with TaskoTracker
-            </p>
+            <div className="relative w-[137px] h-7 text-header-3 text-tasko-gray900">
+            Tasko tracker
+          </div>
           </div>
 
           <nav
@@ -31,8 +31,8 @@ export const Footer = () => {
                 href="#"
                 className="inline-flex gap-2.5 flex-[0_0_auto] items-center relative"
               >
-                <span className="flex w-fit mt-[-1.00px] font-body-large font-[number:var(--body-large-font-weight)] text-tasko-gray400 text-[length:var(--body-large-font-size)] tracking-[var(--body-large-letter-spacing)] leading-[var(--body-large-line-height)] items-center relative [font-style:var(--body-large-font-style)]">
-                  {link.text}
+                <span className="flex w-fit mt-[-1.00px] text-body-large text-tasko-gray400 items-center relative">
+                  Links
                 </span>
               </a>
             ))}
@@ -41,9 +41,9 @@ export const Footer = () => {
 
         <div className="flex h-[53.67px] items-start justify-between px-0 py-4 relative self-stretch w-full border-t-[0.5px] [border-top-style:solid] border-tasko-white700">
           <div className="relative flex-1 grow h-[21px]">
-            <p className="absolute top-0 left-0 font-body-main font-[number:var(--body-main-font-weight)] text-tasko-white700 text-[length:var(--body-main-font-size)] tracking-[var(--body-main-letter-spacing)] leading-[var(--body-main-line-height)] [font-style:var(--body-main-font-style)]">
-              © 2026 TaskoTracker. All rights reserved.
-            </p>
+            <p className="w-[185px] mt-[-1.00px] text-body-main text-tasko-gray400 relative">
+            © 2024 tasko tracker
+          </p>
           </div>
 
           <img
