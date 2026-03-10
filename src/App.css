@@ -60,22 +60,125 @@
   --color-tasko-warning300: rgba(252, 230, 185, 1);
   --color-tasko-warning400: rgba(246, 173, 28, 1);
 
-  /* Typography */
-  --font-body-large: "Nunito", Helvetica;
-  --font-body-main: "Nunito", Helvetica;
-  --font-caption: "Nunito", Helvetica;
-  --font-header-1: "Fredoka", Helvetica;
-  --font-header-2: "Fredoka", Helvetica;
-  --font-header-3: "Fredoka", Helvetica;
-  --font-inter-regular: "Inter", Helvetica;
-  --font-nunito-bold: "Nunito", Helvetica;
-  --font-nunito-regular: "Nunito", Helvetica;
-  --font-semantic-heading-1: "Nunito", Helvetica;
-  --font-semantic-heading-3: "Nunito", Helvetica;
-  --font-semantic-heading-4: "Nunito", Helvetica;
-  --font-semantic-link: "Nunito", Helvetica;
-  --font-semantic-small: "Nunito", Helvetica;
-  --font-UI-button: "Nunito", Helvetica;
+  /* Typography: Body Large */
+  --body-large-font-family: "Nunito", Helvetica;
+  --body-large-font-size: 18px;
+  --body-large-font-style: normal;
+  --body-large-font-weight: 400;
+  --body-large-letter-spacing: 0px;
+  --body-large-line-height: normal;
+
+  /* Typography: Body Main */
+  --body-main-font-family: "Nunito", Helvetica;
+  --body-main-font-size: 16px;
+  --body-main-font-style: normal;
+  --body-main-font-weight: 400;
+  --body-main-letter-spacing: 0px;
+  --body-main-line-height: normal;
+
+  /* Typography: Caption */
+  --caption-font-family: "Nunito", Helvetica;
+  --caption-font-size: 12px;
+  --caption-font-style: normal;
+  --caption-font-weight: 400;
+  --caption-letter-spacing: 0px;
+  --caption-line-height: normal;
+
+  /* Typography: Header 1 */
+  --header-1-font-family: "Fredoka", Helvetica;
+  --header-1-font-size: 40px;
+  --header-1-font-style: normal;
+  --header-1-font-weight: 400;
+  --header-1-letter-spacing: 0px;
+  --header-1-line-height: normal;
+
+  /* Typography: Header 2 */
+  --header-2-font-family: "Fredoka", Helvetica;
+  --header-2-font-size: 28px;
+  --header-2-font-style: normal;
+  --header-2-font-weight: 400;
+  --header-2-letter-spacing: 0px;
+  --header-2-line-height: normal;
+
+  /* Typography: Header 3 */
+  --header-3-font-family: "Fredoka", Helvetica;
+  --header-3-font-size: 20px;
+  --header-3-font-style: normal;
+  --header-3-font-weight: 400;
+  --header-3-letter-spacing: 0px;
+  --header-3-line-height: normal;
+
+  /* Typography: Inter Regular */
+  --inter-regular-font-family: "Inter", Helvetica;
+  --inter-regular-font-size: 16px;
+  --inter-regular-font-style: normal;
+  --inter-regular-font-weight: 400;
+  --inter-regular-letter-spacing: 0px;
+  --inter-regular-line-height: 25.600000381469727px;
+
+  /* Typography: Nunito Bold */
+  --nunito-bold-font-family: "Nunito", Helvetica;
+  --nunito-bold-font-size: 20px;
+  --nunito-bold-font-style: normal;
+  --nunito-bold-font-weight: 700;
+  --nunito-bold-letter-spacing: 0px;
+  --nunito-bold-line-height: 21px;
+
+  /* Typography: Nunito Regular */
+  --nunito-regular-font-family: "Nunito", Helvetica;
+  --nunito-regular-font-size: 16px;
+  --nunito-regular-font-style: normal;
+  --nunito-regular-font-weight: 400;
+  --nunito-regular-letter-spacing: 0px;
+  --nunito-regular-line-height: 21px;
+
+  /* Typography: Semantic Heading 1 */
+  --semantic-heading-1-font-family: "Nunito", Helvetica;
+  --semantic-heading-1-font-size: 36px;
+  --semantic-heading-1-font-style: normal;
+  --semantic-heading-1-font-weight: 700;
+  --semantic-heading-1-letter-spacing: 0px;
+  --semantic-heading-1-line-height: 44px;
+
+  /* Typography: Semantic Heading 3 */
+  --semantic-heading-3-font-family: "Nunito", Helvetica;
+  --semantic-heading-3-font-size: 16px;
+  --semantic-heading-3-font-style: normal;
+  --semantic-heading-3-font-weight: 700;
+  --semantic-heading-3-letter-spacing: 0px;
+  --semantic-heading-3-line-height: 21px;
+
+  /* Typography: Semantic Heading 4 */
+  --semantic-heading-4-font-family: "Nunito", Helvetica;
+  --semantic-heading-4-font-size: 14px;
+  --semantic-heading-4-font-style: normal;
+  --semantic-heading-4-font-weight: 700;
+  --semantic-heading-4-letter-spacing: 0px;
+  --semantic-heading-4-line-height: 21px;
+
+  /* Typography: Semantic Link */
+  --semantic-link-font-family: "Nunito", Helvetica;
+  --semantic-link-font-size: 14px;
+  --semantic-link-font-style: normal;
+  --semantic-link-font-weight: 600;
+  --semantic-link-letter-spacing: 0px;
+  --semantic-link-line-height: 21px;
+
+  /* Typography: Semantic Small */
+  --semantic-small-font-family: "Nunito", Helvetica;
+  --semantic-small-font-size: 11.699999809265137px;
+  --semantic-small-font-style: normal;
+  --semantic-small-font-weight: 400;
+  --semantic-small-letter-spacing: 0px;
+  --semantic-small-line-height: 21px;
+
+  /* Typography: UI Button */
+  --UI-button-font-family: "Nunito", Helvetica;
+  --UI-button-font-size: 16px;
+  --UI-button-font-style: normal;
+  --UI-button-font-weight: 400;
+  --UI-button-letter-spacing: 0px;
+  --UI-button-line-height: normal;
 
   /* Shadows */
   --shadow-high-DM: 2px 4px 8px 0px rgba(237, 250, 251, 0.2);
@@ -88,84 +191,6 @@
   --shadow-vertical-down-LM: 0px 2px 3px 0px rgba(26, 70, 75, 0.15);
   --shadow-vertical-up-DM: 0px -2px 3px 0px rgba(237, 250, 251, 0.15);
   --shadow-vertical-up-LM: 0px -2px 3px 0px rgba(26, 70, 75, 0.15);
-}
-
-:root {
-  --body-large-font-size: 18px;
-  --body-large-font-style: normal;
-  --body-large-font-weight: 400;
-  --body-large-letter-spacing: 0px;
-  --body-large-line-height: normal;
-  --body-main-font-size: 16px;
-  --body-main-font-style: normal;
-  --body-main-font-weight: 400;
-  --body-main-letter-spacing: 0px;
-  --body-main-line-height: normal;
-  --caption-font-size: 12px;
-  --caption-font-style: normal;
-  --caption-font-weight: 400;
-  --caption-letter-spacing: 0px;
-  --caption-line-height: normal;
-  --header-1-font-size: 40px;
-  --header-1-font-style: normal;
-  --header-1-font-weight: 400;
-  --header-1-letter-spacing: 0px;
-  --header-1-line-height: normal;
-  --header-2-font-size: 28px;
-  --header-2-font-style: normal;
-  --header-2-font-weight: 400;
-  --header-2-letter-spacing: 0px;
-  --header-2-line-height: normal;
-  --header-3-font-size: 20px;
-  --header-3-font-style: normal;
-  --header-3-font-weight: 400;
-  --header-3-letter-spacing: 0px;
-  --header-3-line-height: normal;
-  --inter-regular-font-size: 16px;
-  --inter-regular-font-style: normal;
-  --inter-regular-font-weight: 400;
-  --inter-regular-letter-spacing: 0px;
-  --inter-regular-line-height: 25.600000381469727px;
-  --nunito-bold-font-size: 20px;
-  --nunito-bold-font-style: normal;
-  --nunito-bold-font-weight: 700;
-  --nunito-bold-letter-spacing: 0px;
-  --nunito-bold-line-height: 21px;
-  --nunito-regular-font-size: 16px;
-  --nunito-regular-font-style: normal;
-  --nunito-regular-font-weight: 400;
-  --nunito-regular-letter-spacing: 0px;
-  --nunito-regular-line-height: 21px;
-  --semantic-heading-1-font-size: 36px;
-  --semantic-heading-1-font-style: normal;
-  --semantic-heading-1-font-weight: 700;
-  --semantic-heading-1-letter-spacing: 0px;
-  --semantic-heading-1-line-height: 44px;
-  --semantic-heading-3-font-size: 16px;
-  --semantic-heading-3-font-style: normal;
-  --semantic-heading-3-font-weight: 700;
-  --semantic-heading-3-letter-spacing: 0px;
-  --semantic-heading-3-line-height: 21px;
-  --semantic-heading-4-font-size: 14px;
-  --semantic-heading-4-font-style: normal;
-  --semantic-heading-4-font-weight: 700;
-  --semantic-heading-4-letter-spacing: 0px;
-  --semantic-heading-4-line-height: 21px;
-  --semantic-link-font-size: 14px;
-  --semantic-link-font-style: normal;
-  --semantic-link-font-weight: 600;
-  --semantic-link-letter-spacing: 0px;
-  --semantic-link-line-height: 21px;
-  --semantic-small-font-size: 11.699999809265137px;
-  --semantic-small-font-style: normal;
-  --semantic-small-font-weight: 400;
-  --semantic-small-letter-spacing: 0px;
-  --semantic-small-line-height: 21px;
-  --UI-button-font-size: 16px;
-  --UI-button-font-style: normal;
-  --UI-button-font-weight: 400;
-  --UI-button-letter-spacing: 0px;
-  --UI-button-line-height: normal;
 }
 
 :root {
