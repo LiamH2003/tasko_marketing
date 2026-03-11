@@ -28,7 +28,7 @@ export const IntroductionSection = () => {
           </p>
           </article>
 
-          <aside className="w-[403px] gap-2 px-[30px] py-[29px] bg-tasko-white400 rounded-xl flex flex-col items-start relative border-[0.5px] border-solid border-tasko-blue400 shadow-small-LM">
+          <aside className="w-[403px] gap-2 px-[30px] py-[29px] bg-tasko-white400 rounded-no flex flex-col items-start relative border-line border-solid border-tasko-blue400 shadow-small-LM">
             <h4 className="relative flex items-center self-stretch mt-[-0.50px] text-body-large text-tasko-gray400">
               {content.feature}
             </h4>

@@ -3,36 +3,39 @@ import Background from "../assets/BackgroundHero.webp";
 export const HeroSection = () => {
   return (
     <section 
-      className="items-start bg-[url(/section.svg)] bg-cover bg-[50%_50%] flex flex-col justify-center px-10 py-24 relative self-stretch w-full flex-[0_0_auto]"
+      className="items-start bg-cover bg-center bg-no-repeat w-full flex-[0_0_auto]"
       style={{ 
-        backgroundImage: `url(${Background})`,
-        backgroundSize: '100% 100%'
+        backgroundImage: `url(${Background})`
       }}
     >
-      <article className="inline-flex flex-col items-start gap-10 p-12 relative flex-[0_0_auto] bg-tasko-white400 rounded-2xl border-[0.5px] border-solid border-tasko-blue400 shadow-high-LM">
-        <div className="flex flex-col items-start gap-8 relative self-stretch w-full flex-[0_0_auto]">
-          <h2 className="relative w-[530px] mt-[-1.00px] text-header-1 text-tasko-blue900">
-            Cultivating independence through the principles of calm technology
-          </h2>
+      <div className="tasko-container py-4xl md:py-5xl">
+        <div className="tasko-grid">
+          <article className="col-span-4 min-[550px]:col-span-6 min-[700px]:col-span-4 flex flex-col items-start gap-lg md:gap-xl lg:gap-3xl p-lg md:p-xl lg:p-3xl relative flex-[0_0_auto] bg-tasko-white400 rounded-lg border-line border-solid border-tasko-blue400 shadow-high-LM">
+            <div className="flex flex-col items-start gap-lg md:gap-xl relative self-stretch w-full flex-[0_0_auto]">
+              <h2 className="relative w-full mt-[-1.00px] text-header-2 md:text-header-1 text-tasko-blue900">
+                Cultivating independence through the principles of calm technology
+              </h2>
 
-          <p className="relative w-[513px] text-body-large text-tasko-gray400">
-            Tasko Tracker provides a focused environment for routines. We
-            replace digital noise with a structured approach that helps children
-            motivate themselves, moving away from constant parental pressure and
-            toward self-governance.
-          </p>
+              <p className="relative w-full text-body-main lg:text-body-large text-tasko-gray400">
+                Tasko Tracker provides a focused environment for routines. We
+                replace digital noise with a structured approach that helps children
+                motivate themselves, moving away from constant parental pressure and
+                toward self-governance.
+              </p>
+            </div>
+
+            <button
+              className="flex w-max min-w-[50%] max-w-full h-12 px-4 items-center justify-center gap-sm relative bg-tasko-blue400 rounded-sm shadow-medium-LM cursor-pointer border-0 hover:bg-tasko-blue500 transition-colors"
+              type="button"
+              aria-label="Become part of the program"
+            >
+              <span className="relative flex items-center justify-center w-full text-UI-button text-center text-tasko-gray400 leading-tight">
+                Become part of the program
+              </span>
+            </button>
+          </article>
         </div>
-
-        <button
-          className="flex w-[261px] h-12 items-center justify-center gap-2.5 relative bg-tasko-blue400 rounded-lg shadow-medium-LM cursor-pointer border-0"
-          type="button"
-          aria-label="Become part of the program"
-        >
-          <span className="relative flex items-center justify-center w-fit text-UI-button text-center text-tasko-gray400">
-            Become part of the program
-          </span>
-        </button>
-      </article>
+      </div>
     </section>
   );
 };

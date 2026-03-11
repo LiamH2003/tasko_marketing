@@ -41,10 +41,10 @@ export const AppPromisesSection = () => {
         {features.map((feature, index) => (
           <article
             key={index}
-            className="flex flex-col w-[399px] items-start gap-4 p-8 relative self-stretch bg-tasko-white400 rounded-2xl border-[0.5px] border-solid border-tasko-blue400 shadow-small-LM"
+            className="flex flex-col w-[399px] items-start gap-4 p-8 relative self-stretch bg-tasko-white400 rounded-no border-line border-solid border-tasko-blue400 shadow-small-LM"
           >
             <div
-              className="flex w-14 h-14 items-center justify-center relative bg-tasko-blue300 rounded-xl"
+              className="flex w-14 h-14 items-center justify-center relative bg-tasko-blue300 rounded-sm"
               aria-hidden="true"
             >
               <div
