@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./App.css";
 import { HeroSection } from "./components/HeroSection";
 import { CompetitorComparisonSection } from "./components/CompetitorComparisonSection";
@@ -9,6 +10,20 @@ import { IntroductionSection } from "./components/IntroductionSection";
 import { Header } from "./components/Header";
 
 export default function App() {
+  useEffect(() => {
+    const updateHeaderMargin = () => {
+      const header = document.getElementById('main-header');
+      if (header) {
+        document.body.style.marginTop = `${header.offsetHeight}px`;
+      }
+    };
+
+    updateHeaderMargin();
+    window.addEventListener('resize', updateHeaderMargin);
+    
+    return () => window.removeEventListener('resize', updateHeaderMargin);
+  }, []);
+
   return (
     <div className="bg-tasko-white200 w-full overflow-x-hidden">
       <Header />

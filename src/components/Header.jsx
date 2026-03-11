@@ -11,7 +11,7 @@ export const Header = () => {
   ];
 
   return (
-    <header className="flex w-full h-[105.23px] relative items-center justify-between px-10 py-8 bg-tasko-gray500 shadow-vertical-down-LM">
+    <header id="main-header" className="flex w-full fixed top-0 left-0 right-0 z-50 items-center justify-between px-lg md:px-xl lg:px-2xl py-lg md:py-xl bg-tasko-white100 shadow-vertical-down-LM">
       <img
         className="relative w-[50px] h-[41.23px] aspect-[1.21]"
         alt="Tasko Tracker Logo"
@@ -33,10 +33,10 @@ export const Header = () => {
               >
                 <a
                   href={`#${item.label.toLowerCase().replace(" ", "-")}`}
-                  className={`flex w-fit mt-[-1.00px] text-body-large items-center relative no-underline ${
+                  className={`flex w-fit mt-[-1.00px] text-body-large items-center relative no-underline border-b-2 pb-[4px] transition-colors ${
                     isActive
-                      ? "text-tasko-blue600"
-                      : "text-tasko-gray400"
+                      ? "text-tasko-blue600 border-tasko-blue600"
+                      : "text-tasko-gray400 border-transparent hover:text-tasko-blue500"
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
