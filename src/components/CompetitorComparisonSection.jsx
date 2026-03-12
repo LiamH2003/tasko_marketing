@@ -31,18 +31,18 @@ export const CompetitorComparisonSection = () => {
   ];
 
   return (
-    <section className="flex flex-col items-start justify-center px-10 py-24 relative self-stretch w-full flex-[0_0_auto] bg-tasko-white100">
-      <div className="flex flex-col items-center gap-10 px-5 py-0 relative self-stretch w-full flex-[0_0_auto]">
-        <p className="relative self-stretch mt-[-1.00px] text-header-2 text-tasko-gray900">
+    <section className="flex flex-col items-center justify-center px-6 md:px-10 py-16 md:py-24 relative self-stretch w-full flex-[0_0_auto] bg-tasko-white100">
+      <div className="flex flex-col items-center gap-8 md:gap-10 px-0 py-0 relative w-full max-w-[900px] flex-[0_0_auto]">
+        <p className="relative w-full max-w-[848px] mt-[-1.00px] text-header-2 text-tasko-gray900 text-center">
           It isn’t your classic smartphone
         </p>
-        <p className="relative self-stretch text-body-main text-tasko-gray400">
+        <p className="relative w-full max-w-[760px] text-body-main text-tasko-gray400 text-center">
           Every feature on your child’s phone was built to grab their
           attention, not help them focus. That’s why a phone will never
           replace a dedicated tool like tasko.
         </p>
 
-        <div className="flex flex-col w-[798px] items-start p-4 relative flex-[0_0_auto] bg-tasko-white400 rounded-2xl border-[0.5px] border-solid border-tasko-blue400 shadow-small-LM">
+        <div className="flex flex-col w-full max-w-[798px] items-start p-3 md:p-4 relative flex-[0_0_auto] bg-tasko-white400 rounded-2xl border-[0.5px] border-solid border-tasko-blue400 shadow-small-LM overflow-x-auto">
           <div
             className="flex items-start px-0 py-2 relative self-stretch w-full flex-[0_0_auto]"
             role="row"

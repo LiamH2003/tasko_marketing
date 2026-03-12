@@ -18,7 +18,7 @@ export const ProblemStatementSection = () => {
   ];
 
   return (
-    <section className="flex flex-col w-full items-center px-10 py-24 relative flex-[0_0_auto] bg-tasko-white400">
+    <section id="problem-statement" className="flex flex-col w-full items-center px-10 py-24 relative flex-[0_0_auto] bg-tasko-white400">
       <div className="inline-flex flex-col items-center justify-center gap-6 relative flex-[0_0_auto] w-full min-[550px]:w-auto">
         <div className="w-full min-[550px]:w-[751px] min-[700px]:w-[848px] mt-[-1.00px] text-header-2 text-tasko-gray900 relative text-center px-4 min-[550px]:px-0">
           The Problem with Smart Devices

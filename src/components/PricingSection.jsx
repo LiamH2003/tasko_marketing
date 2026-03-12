@@ -30,6 +30,7 @@ export const PricingSection = () => {
 
   return (
     <section 
+      id="pricing"
       className="flex flex-col w-full items-center justify-center gap-8 px-10 py-8 relative flex-[0_0_auto] bg-tasko-white400">
       <header className="flex flex-col w-[700px] items-center gap-4 relative flex-[0_0_auto]">
         <div className="w-[848px] mt-[-1.00px] text-header-2 text-tasko-gray900 text-center relative">
@@ -37,11 +38,11 @@ export const PricingSection = () => {
         </div>
       </header>
 
-      <div className="flex w-full max-w-[860px] flex-col items-stretch gap-6 md:flex-row md:items-stretch">
+      <div className="grid w-full max-w-[826px] grid-cols-1 gap-6 md:grid-cols-2">
         {plans.map((plan, index) => (
           <article
             key={index}
-            className={`flex flex-1 flex-col items-start gap-2.5 p-8 relative self-stretch ${plan.bgColor} rounded-2xl overflow-hidden border-[0.5px] border-solid border-tasko-blue400 shadow-small-LM`}
+            className={`flex flex-col items-start gap-2.5 p-8 relative ${plan.bgColor} rounded-2xl overflow-hidden border-[0.5px] border-solid border-tasko-blue400 shadow-small-LM`}
           >
             <h2 className="relative w-fit mt-[-0.50px] text-header-3 text-tasko-gray400 text-center whitespace-nowrap">
               {plan.name}
@@ -75,7 +76,7 @@ export const PricingSection = () => {
       </div>
 
       <button
-        className="flex w-full max-w-[520px] h-[52px] items-center justify-center gap-2.5 relative bg-tasko-blue300 rounded-lg border border-solid border-tasko-blue400 shadow-medium-LM"
+        className="flex w-full max-w-[420px] h-[52px] items-center justify-center gap-2.5 relative bg-tasko-blue300 rounded-lg border border-solid border-tasko-blue400 shadow-medium-LM"
         type="button"
       >
         <span className="relative flex items-center justify-center w-fit text-UI-button text-tasko-gray400 text-center">
