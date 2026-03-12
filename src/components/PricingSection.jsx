@@ -30,6 +30,7 @@ export const PricingSection = () => {
 
   return (
     <section 
+      id="pricing"
       className="flex flex-col w-full items-center justify-center gap-8 px-10 py-8 relative flex-[0_0_auto] bg-tasko-white400">
       <header className="flex flex-col w-[700px] items-center gap-4 relative flex-[0_0_auto]">
         <div className="w-[848px] mt-[-1.00px] text-header-2 text-tasko-gray900 text-center relative">
