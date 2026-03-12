@@ -15,8 +15,8 @@ export const IntroductionSection = () => {
           What is tasko tracker?
         </h2>
 
-        <div className="inline-flex items-start gap-8 relative flex-[0_0_auto]">
-          <article className="flex flex-col w-[553px] items-start gap-2 relative self-stretch">
+        <div className="inline-flex flex-col min-[700px]:flex-row items-center min-[700px]:items-start gap-8 relative flex-[0_0_auto] w-full min-[550px]:w-auto px-4 min-[550px]:px-0 min-[700px]:px-10">
+          <article className="flex flex-col w-full min-[700px]:flex-1 min-[700px]:max-w-[600px] items-start gap-2 relative self-stretch">
             <p className="relative self-stretch mt-[-1.00px] text-header-2 text-tasko-gray900">
             Empower routines without the screen-time battle
           </p>
@@ -28,7 +28,7 @@ export const IntroductionSection = () => {
           </p>
           </article>
 
-          <aside className="w-[403px] gap-2 px-[30px] py-[29px] bg-tasko-white400 rounded-no flex flex-col items-start relative border-line border-solid border-tasko-blue400 shadow-small-LM">
+          <aside className="w-full min-[700px]:flex-1 min-[700px]:max-w-[600px] gap-2 px-[30px] py-[29px] bg-tasko-white400 rounded-no flex flex-col items-start relative border-line border-solid border-tasko-blue400 shadow-small-LM">
             <h4 className="relative flex items-center self-stretch mt-[-0.50px] text-body-large text-tasko-gray400">
               {content.feature}
             </h4>

@@ -19,29 +19,29 @@ export const ProblemStatementSection = () => {
 
   return (
     <section className="flex flex-col w-full items-center px-10 py-24 relative flex-[0_0_auto] bg-tasko-white400">
-      <div className="inline-flex flex-col items-center justify-center gap-6 relative flex-[0_0_auto]">
-        <div className="w-[848px] mt-[-1.00px] text-header-2 text-tasko-gray900 relative">
+      <div className="inline-flex flex-col items-center justify-center gap-6 relative flex-[0_0_auto] w-full min-[550px]:w-auto">
+        <div className="w-full min-[550px]:w-[751px] min-[700px]:w-[848px] mt-[-1.00px] text-header-2 text-tasko-gray900 relative text-center px-4 min-[550px]:px-0">
           The Problem with Smart Devices
         </div>
 
-        <p className="relative flex items-center justify-center w-[751.26px] text-body-large text-tasko-gray400 text-center">
+        <p className="relative flex items-center justify-center w-full min-[550px]:w-[640px] min-[700px]:w-[751.26px] text-body-large text-tasko-gray400 text-center px-4 min-[550px]:px-0">
           Children between 9 and 12 are starting to desire more independence but
           are often navigating routines heavily dictated by parents. Giving them a
           smartphone to manage tasks introduces a completely different set of
           problems:
         </p>
 
-        <div className="flex w-[1231px] items-start justify-center gap-[25px] relative flex-[0_0_auto]">
+        <div className="flex flex-col min-[550px]:flex-col min-[700px]:flex-row w-full min-[550px]:w-[640px] min-[700px]:w-full items-center min-[700px]:items-start justify-center gap-[25px] relative flex-[0_0_auto] px-4 min-[550px]:px-0 min-[700px]:px-10">
           {challenges.map((challenge, index) => (
             <article
               key={index}
               className={`${
                 index === 0
-                  ? "w-[400px] gap-[8.9px]"
+                  ? "gap-[8.9px]"
                   : index === 1
-                    ? "w-[391px] gap-2"
-                    : "w-[390px] gap-2"
-              } p-6 self-stretch bg-tasko-white100 rounded-2xl flex flex-col items-start relative border-[0.5px] border-solid border-tasko-blue400 shadow-small-LM`}
+                    ? "gap-2"
+                    : "gap-2"
+              } w-full min-[700px]:flex-1 min-[700px]:max-w-[400px] p-6 self-stretch bg-tasko-white100 rounded-2xl flex flex-col items-start relative border-[0.5px] border-solid border-tasko-blue400 shadow-small-LM`}
             >
               <header
                 className={`flex flex-col items-center ${index === 1 ? "pt-0 pb-[0.8px] px-0" : "pt-0 pb-[0.69px] px-0"} relative self-stretch w-full flex-[0_0_auto]`}
