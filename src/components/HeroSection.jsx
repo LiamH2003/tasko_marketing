@@ -11,7 +11,7 @@ export const HeroSection = () => {
         id="main-content"
         tabIndex={-1}
         aria-label="Hero — Cultivating independence through calm technology"
-        className="items-start bg-cover bg-center bg-no-repeat w-full flex-[0_0_auto] focus:outline-none"
+        className="items-start bg-cover bg-center bg-no-repeat w-full h-[100vh] flex-[0_0_auto] focus:outline-none"
         style={{
           backgroundImage: `url(${Background})`
         }}
@@ -24,14 +24,12 @@ export const HeroSection = () => {
             >
               <div className="flex flex-col items-start gap-lg md:gap-xl relative self-stretch w-full flex-[0_0_auto]">
                 <h1 id="hero-headline" className="relative w-full mt-[-1.00px] text-header-2 md:text-header-1 text-tasko-blue900">
-                  Cultivating independence through the principles of calm technology
+                   Tasko Tracker: Cultivating independence through calm technology
                 </h1>
 
                 <p className="relative w-full text-body-main lg:text-body-large text-tasko-gray400">
-                  Tasko Tracker provides a focused environment for routines. We
-                  replace digital noise with a structured approach that helps children
-                  motivate themselves, moving away from constant parental pressure and
-                  toward self-governance.
+                Tasko Tracker helps kids build healthy routines and self-regulation, while keeping parents in the loop. 
+                With separate dashboards for parents and children, everyone stays connected and stress at home is reduced.
                 </p>
               </div>
 

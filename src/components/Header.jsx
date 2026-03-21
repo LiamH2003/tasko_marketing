@@ -1,5 +1,5 @@
 import { useState } from "react";
-import taskotrackerlogo from "../assets/TaskoTrackerLogo.svg";
+import taskotrackerlogo from "../assets/TaskoTrackerNameLogo.svg";
 
 export const Header = () => {
   const [activeTab, setActiveTab] = useState("Home");
@@ -35,7 +35,7 @@ export const Header = () => {
       <header
         id="main-header"
         role="banner"
-        className="flex w-full fixed top-0 left-0 right-0 z-50 items-center justify-between px-lg md:px-xl lg:px-2xl py-lg md:py-xl bg-tasko-white100 shadow-vertical-down-LM"
+        className="flex w-full fixed top-0 left-0 right-0 z-[1000] items-center justify-between px-6 py-1 bg-tasko-white100 shadow-vertical-down-LM"
       >
         <a
           href="#top"
@@ -44,7 +44,7 @@ export const Header = () => {
           onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); setActiveTab("Home"); }}
         >
           <img
-            className="relative w-[50px] h-[41.23px] aspect-[1.21]"
+            className="relative w-[100px] h-[82.46px] aspect-[1.21]"
             alt="Tasko Tracker Logo"
             src={taskotrackerlogo}
           />
@@ -81,7 +81,7 @@ export const Header = () => {
           </ul>
 
           <img
-            className="relative w-[30.05px] h-px mb-[-1.00px]"
+            className="relative w-[60.10px] h-px mb-[-1.00px]"
             alt=""
             aria-hidden="true"
           />
