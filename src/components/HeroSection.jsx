@@ -24,7 +24,7 @@ export const HeroSection = () => {
             >
               <div className="flex flex-col items-start gap-lg md:gap-xl relative self-stretch w-full flex-[0_0_auto]">
                 <h1 id="hero-headline" className="relative w-full mt-[-1.00px] text-header-2 md:text-header-1 text-tasko-blue900">
-                   Tasko Tracker: Cultivating independence through calm technology
+                   Tasko Tracker: Cultivating independence through calm technologyy
                 </h1>
 
                 <p className="relative w-full text-body-main lg:text-body-large text-tasko-gray400">
